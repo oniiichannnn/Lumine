@@ -244,4 +244,4 @@ const app       = express()
 
 app.get("/", ( req,res ) => { res.send("Online")            })
 app.listen(4000, () =>      { console.log("Keep alived")    })
-client.login("ODkyMTAyNzc3MjA2MDgzNjA1.YVIBdA.g1iOhyOjsPtOULPBTwW8sonmFXg")
+client.login(process.env.bottoken)
